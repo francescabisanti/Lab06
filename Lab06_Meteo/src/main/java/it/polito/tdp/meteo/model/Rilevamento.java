@@ -1,6 +1,7 @@
 package it.polito.tdp.meteo.model;
 
 import java.util.Date;
+import java.time.*;
 
 public class Rilevamento {
 	
@@ -47,7 +48,8 @@ public class Rilevamento {
 	public String toString() {
 		return String.valueOf(umidita);
 	}
-
+	
+	
 	
 
 }
